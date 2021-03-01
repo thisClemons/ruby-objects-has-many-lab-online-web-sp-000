@@ -17,7 +17,7 @@ class Song
 
   def artist_name
     binding.pry
-    self.artist ? self.artist.name : 
+    self.artist ? self.artist.name : nil
   end
 
 
