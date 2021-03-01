@@ -10,8 +10,4 @@ class Artist
     Song.select {|song| song.artist == self}
   end
 
-
-
-
-
 end
